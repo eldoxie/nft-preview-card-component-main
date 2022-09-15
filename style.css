@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 360px;
+    border-radius: 15px;
+}
+
+.img, img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 23px;
+    margin: 15px 0 15px 0;
+}
+
+.grid {
+    padding: 20px;
+}
+.text {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+}
+
+.price {
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
+}
+
+.valor {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.ethereum { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clock { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time {
+    margin-left: 5px;
+}
+
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.creation {
+    display : flex;
+    flex-direction : row;
+    margin: 15px 0 0 0;
+    align-items: center;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding-top: 15px;
+}
+
+.ftperfil {
+    max-width: 40px;
+    border: 2px solid hsl(215, 51%, 70%);
+    border-radius: 30px;
+}
+
+.mention {
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+}
+
+strong {
+    font-weight: normal;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
